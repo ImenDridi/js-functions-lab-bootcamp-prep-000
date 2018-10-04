@@ -6,7 +6,7 @@ var days = "20"
 
 
 function happyHolidays(){
-  console.log "Happy holidays!"
+  console.log ("Happy holidays!")
 }
 
 function happyHolidaysTo(name){
@@ -14,9 +14,9 @@ function happyHolidaysTo(name){
 }
 
 function happyHolidayTo(){
-return '"Happy", ${holiday}, ${name}!'
+console.log ('"Happy", ${holiday}, ${name}, "!"')
 }
 
 function holidayCountdown(){
-return '"It is", ${days} "days until", ${holiday}!'
+console.log ('"It is", ${days}, "days until", ${holiday}, "!"')
 }
